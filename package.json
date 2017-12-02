@@ -1,0 +1,32 @@
+{
+  "name": "ether-node-mininig",
+  "version": "1.0.0",
+  "description": "My attempt to mine ether on node.js",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "bignumber.js": "^5.0.0",
+    "bignumber": "^1.1.0",
+    "ethashjs": "^0.0.7",
+    "ethereumjs-block": "^1.2.2",
+    "ethereumjs-util": "^5.1.2",
+    "ethereumjs-testing": "^0.0.1",
+    "memdown": "^1.4.1",
+    "miller-rabin": "^4.0.1",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./lib/index"
+  },
+  "keywords": [
+    "ether",
+    "mining"
+  ],
+  "author": "misha.stepanov@icloud.com",
+  "license": "ISC"
+}
