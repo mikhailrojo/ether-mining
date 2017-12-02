@@ -1,4 +1,4 @@
-# My attempt to make nodejs Ether mining #
+# My attempt to make nodejs(v8.4.0) Ether mining #
 
 This programs requires a running geth program
 
